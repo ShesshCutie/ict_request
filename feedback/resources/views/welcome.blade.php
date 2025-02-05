@@ -39,8 +39,8 @@
         <div class="sidebar" id="sidebar">
             <div class="container">
                 <ul class="sidebar-nav">
-                    <li class="sidebar-item"><a class="sidebar-link" href="#services">Home</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="#portfolio">Service Report</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="resources\views\welcome.blade.php">Home</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/service-status">Service Status</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="#about">Contact Us</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="#team">About Us</a></li>
 
