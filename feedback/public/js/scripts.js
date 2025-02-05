@@ -52,3 +52,11 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+document.getElementById("sidebarToggle").addEventListener("click", function () {
+    let sidebar = document.getElementById("sidebar");
+    if (sidebar.style.left === "0px") {
+        sidebar.style.left = "-250px";
+    } else {
+        sidebar.style.left = "0px";
+    }
+});
